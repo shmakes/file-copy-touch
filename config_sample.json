@@ -1,4 +1,5 @@
 {
+  "ApplicationTitle": "File Copy Touch",
   "MinimumInputLength": 5,
   "DebounceMilliseconds": 500,
   "SourceDirectory": "C:\\SourceFiles",

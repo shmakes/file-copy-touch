@@ -6,6 +6,7 @@ namespace FileCopyTouch
 {
     public class Configuration
     {
+        public string ApplicationTitle { get; set; } = "File Copy Touch";
         public int MinimumInputLength { get; set; } = 5;
         public int DebounceMilliseconds { get; set; } = 500;
         public string SourceDirectory { get; set; } = "";
@@ -57,6 +58,7 @@ namespace FileCopyTouch
             {
                 var defaultConfig = new Configuration
                 {
+                    ApplicationTitle = "File Copy Touch",
                     MinimumInputLength = 5,
                     DebounceMilliseconds = 500,
                     SourceDirectory = @"C:\SourceFiles",

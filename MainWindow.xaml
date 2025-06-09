@@ -14,7 +14,8 @@
         </Grid.RowDefinitions>
         
         <!-- Title -->
-        <TextBlock Grid.Row="0" Text="File Copy Touch" 
+        <TextBlock x:Name="TitleTextBlock"
+                   Grid.Row="0" Text="File Copy Touch" 
                    FontSize="32" FontWeight="Bold" 
                    HorizontalAlignment="Center" 
                    Margin="0,0,0,30" 

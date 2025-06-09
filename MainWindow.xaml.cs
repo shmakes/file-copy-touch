@@ -45,6 +45,9 @@ namespace FileCopyTouch
             // Update configuration info display
             UpdateConfigInfo();
             
+            // Set the application title
+            UpdateApplicationTitle();
+            
             // Validate directories
             ValidateDirectories();
         }
@@ -55,6 +58,12 @@ namespace FileCopyTouch
                                       $"Debounce: {_config.DebounceMilliseconds}ms | " +
                                       $"Source: {_config.SourceDirectory} | " +
                                       $"Target: {_config.TargetDirectory}";
+        }
+
+        private void UpdateApplicationTitle()
+        {
+            TitleTextBlock.Text = _config.ApplicationTitle;
+            this.Title = $"{_config.ApplicationTitle} - Touch Interface";
         }
 
         private void SetupPlaceholderText()

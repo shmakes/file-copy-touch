@@ -30,6 +30,7 @@ The application uses a `config.json` file that must be in the same directory as 
 
 ```json
 {
+  "ApplicationTitle": "File Copy Touch",
   "MinimumInputLength": 5,
   "DebounceMilliseconds": 500,
   "SourceDirectory": "C:\\SourceFiles",
@@ -37,6 +38,7 @@ The application uses a `config.json` file that must be in the same directory as 
 }
 ```
 
+- **ApplicationTitle**: The title text displayed in the application header (default: "File Copy Touch")
 - **MinimumInputLength**: Minimum number of characters needed before search begins (5-20, default: 5)
 - **DebounceMilliseconds**: Wait time after typing stops before search starts (100-3000ms, default: 500)
 - **SourceDirectory**: Path to the directory containing files to search and copy from
