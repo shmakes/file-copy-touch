@@ -1,0 +1,6 @@
+{
+  "MinimumInputLength": 5,
+  "DebounceMilliseconds": 500,
+  "SourceDirectory": "C:\\SourceFiles",
+  "TargetDirectory": "C:\\TargetFiles"
+} 
